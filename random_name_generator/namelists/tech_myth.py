@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 names = [
     'Topnation', 'Thoughtlist', 'Jumpvine', 'Mybean', 'Jaxworks', 'Aginder', 'Topiczone', 'Linkverse', 'Pixondu',
     'Feedtype', 'Onix', 'Npath', 'Chatterblab', 'Oonoodle', 'Rhymbu', 'Fazio', 'BrowseXS', 'Yoba', 'Topblab',

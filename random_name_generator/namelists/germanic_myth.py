@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 names = [
     'Auriwandalo', 'Bercht', 'Berchta', 'Donar', 'Earendel', 'Eastre', 'Eormen', 'Eostre', 'Erentil', 'Ermen',
     'Ermunaz', 'Frau', 'Faste', 'Perchta', 'Frea', 'Freke', 'Frey', 'Fri', 'Frick', 'Frig', 'Frige', 'Frija', 'Frijjō',

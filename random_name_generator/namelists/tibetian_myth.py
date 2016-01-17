@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 names = [
     'Akshobhya', 'Amitayas', 'Amitayus', 'Amoghasiddhi', 'Appchungdu', 'Beg', 'Tse', 'Lcam', 'Sring', 'Begtse',
     'Bhaisajya', 'Guru', 'Bhaisajyaguru', 'Chenresig', 'Chenrezig', 'Dalai', 'Lama', 'Dharmapalas', 'Dhyani', 'Buddhas',

@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 names = [
     'Abassi', 'Abiku', 'Abuk', 'Achimi', 'Adriambahomanana', 'Adro', 'Adroa', 'Adroanzi', 'Age', 'Aha', 'Njoku', 'Aho',
     'Aigamuxa', 'Aje', 'Shaluga', 'Ajok', 'Akongo', 'Ala', 'Ale', 'Alla', 'Alouroua', 'Amma', 'Ananse', 'Anansi',

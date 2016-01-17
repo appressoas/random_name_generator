@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 names = [
     'Abandinus', 'Abarta', 'Abred', 'Achren', 'Aebh', 'Aed', 'Aengus', 'Aeron?', 'Afagddu', 'Agrona', 'Ai', 'Mac',
     'Ollamon', 'Aibell', 'Aichleach', 'Aife', 'Ailbe', 'Ailill', 'Anglonnach', 'Mata', 'Olom', 'Aille', 'Aillen',

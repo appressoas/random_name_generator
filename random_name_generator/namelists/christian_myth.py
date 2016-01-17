@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 names = [
     'Abraham Kidunaia', 'Abraham the Hermit', 'Achilleus', 'Adalbert of Magdeburg', 'Adamnan', 'Adamnan of Iona',
     'Adelaid of Italy', 'Adelaide', 'Adelaide of Burgundy', 'Adelaide the Empress', 'Adelheid', 'Adomnan',

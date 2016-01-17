@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 names = [
     'Aita', 'Alpan', 'Alpanu', 'Alpnu', 'Aplu', 'Apulu', 'Aritimi', 'Arthrpa', 'Artumes', 'Atunis', 'Calu', 'Castur',
     'Cath', 'Catha', 'Cautha', 'Cel', 'Celsclan', 'Cetha', 'Chalchas', 'Charu', 'Charun', 'Cilens', 'Culsans', 'Culsu',

@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 names = [
     'Dirib Xecwi Qtuci', 'Goxoj', 'Fibog Qexav', 'Tafaf Mpibh Qykai', 'Vutyn Dypaq Yqopr', 'Quqyt Gtupe Xunyq', 'Vtpan',
     'Niapu Fnciq Dmela', 'Qigsm Oryma', 'Vcikd Mohiw Niibb', 'Kunnu', 'Puxeq Kgkyk Amijf', 'Edqug', 'Uxhal Eygal Tdbyz',

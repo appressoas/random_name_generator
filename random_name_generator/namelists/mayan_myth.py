@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 names = [
     'Ac', 'Yanto', 'Acan', 'Acantuns', 'Acat', 'Ah', 'Bolom', 'Tzacab', 'Bolon', "Dz'acab", 'Dzacab', 'Chicum', 'Ek',
     'Chicumek', 'Ciliz', 'Cuxtal', 'Hoya', 'Hulneb', 'Kin', 'Kinchil', 'Mucen', 'Cab', 'Muzen', 'Muzencab', 'Peku',

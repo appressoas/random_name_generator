@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 names = [
     'Aditi', 'Adityas', 'Adivaraha', 'Agastya', 'Agastyar', 'Agathiar', 'Agni', 'Ambika', 'Amitabha', 'Ammavaru',
     'Amrita', 'Ananda', 'Angiras', 'Angirasa', 'Anjana', 'Annapurna', 'Ansa', 'Anumati', 'Anuradha', 'Apsaras',

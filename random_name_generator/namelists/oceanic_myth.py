@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 names = [
     'Abeguwo', 'Abere', 'Adaro', 'Adi', 'Mailagu', 'Afekan', 'Agunua', 'Ahoeitu', 'Tupuai', 'Aiaru', 'Aku', 'Muki',
     'Alalahe', 'Alilmenehune', 'Aluelop', 'Aluluei', 'Ao', 'Kahiwahiwa', 'Kanapanapa', 'Nue', 'Pakarea', 'Potano',

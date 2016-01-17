@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 names = [
     'Ahto', 'Aijo', 'Aino', 'Ajatar', 'Ajattara', 'Akka', 'Antero', 'Vipunen', 'Erlik', 'Ether', 'Haltia', 'Hiisi',
     'Hisi', 'Ilma', 'Ilman', 'Haltiat', 'Ilmarinen', 'Ilmatar', 'Joukahainen', 'Joulupukki', 'Jubmel', 'Juks',

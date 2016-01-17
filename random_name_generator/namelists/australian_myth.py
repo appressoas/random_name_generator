@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 names = [
     'Adnoartina', 'Alchera', 'Almudj', 'Altjira', 'Arawotya', 'Bagadjimbiri', 'Baiame', 'Bamapana', 'Bellin', 'Biame',
     'Bildjiwuaroju', 'Binbeal', 'Birrahgnooloo', 'Bobbi', 'Bunbulama', 'Bunjil', 'Bunyip', 'Daramulum', 'Darana',

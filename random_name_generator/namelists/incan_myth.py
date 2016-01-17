@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 names = [
     'Accla', 'Acsumama', 'Apaec', 'Ajomama', 'Apacatequil', 'Apacheta', 'Apocatequil', 'Apotequil', 'Apu', 'Illapu',
     'Punchau', 'Qun', 'Tiqsi', 'Wiraqutra', 'Ataguchu', 'Axomamma', 'Ayapec', 'Ayar', 'Acar', 'Cachi', 'Colo', 'Manco',

@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 names = [
     'Abgal', 'Absu', 'Abzu', 'Adad', 'Adapa', 'Adrammelech', 'Aja', 'Alalus', 'Allatu', 'Amurru', 'An', 'Anammelech',
     'Anammelekh', 'Ansar', 'Anshar', 'Anshur', 'Malik', 'Anunaki', 'Anunnaki', 'Anunnaku', 'Anzu', 'Apsu', 'Ashur',

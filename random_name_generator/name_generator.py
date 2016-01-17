@@ -25,7 +25,6 @@ NAMELIST_MODULES = [
     'south_american_myth',
     'tech_myth',
     'tibetian_myth',
-    'faked_myth',
 ]
 
 

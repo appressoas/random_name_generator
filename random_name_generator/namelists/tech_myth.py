@@ -25,7 +25,7 @@ names = [
     'Skipbean', 'Kwiveo', 'Skipspace', 'Leeba', 'Shuffletune', 'Chatterbeat', 'Blogfish', 'Zoomtags', 'Truboo',
     'Topware', 'Skippulse', 'Yacero', 'Skipster', 'Tekbridge', 'Plable', 'Rhylith', 'Avandu', 'Eilia', 'Tagdog',
     'Browsezoom', 'Tazz', 'Tekify', 'Wordclub', 'Mydeo', 'Zoomspan', 'Livecast', 'Lazu', 'Jambu', 'Cogimia', 'Avavu',
-    'Flashfish', 'Poddog', 'Chatverse', 'Nclub', 'Leepe', 'Rhydo', 'Aimbee', 'Camixo', 'Zoonte', 'Shuffleopia', 'Lamia',
+    'Flashfish', 'Poddog', 'Chatverse', 'Nclub', 'Leepe', 'Rhydo', 'Aimbee', 'Camixo', 'Zoonte', 'Shuffleopia',
     'Shufflecast', 'Chatterchat', 'Yakilium', 'Devtune', 'Brainbug', 'Braintube', 'Voota', 'Podpoint', 'Pixonix',
     'Topicbean', 'Twitterchat', 'Innospot', 'Eido', 'Divaveo', 'Mybox', 'Brainwire', 'Dynado', 'Skyjo', 'Quizio',
     'Livepoint', 'Jettube', 'Kijo', 'Oyombee', 'Dynadel', 'Jetlounge', 'Trinoodle', 'Zadeo', 'Oore', 'Innovine',

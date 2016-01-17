@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+from __future__ import unicode_literals
 names = [
     'Balder', 'Baldr', 'Baldur', 'Baudihillie', 'Bestla', 'Beyla', 'Bifrost', 'Bilfrost', 'Bjort', 'Blid', 'Bor',
     'Borr', 'Brage', 'Bragi', 'Brunhilde', 'Brunhilt', 'Brunnhilde', 'Brynhild', 'Buri', 'Byggvir', 'Bylgia', 'Aasgard',

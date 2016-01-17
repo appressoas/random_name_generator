@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+from __future__ import unicode_literals
 names = [
     'Aah', 'Aapep', 'Abtu', 'Ahemait', 'Ahti', 'Ailuros', 'Aken', 'Aker', 'Amathaunta', 'Amaunet', 'Amemait', 'Amen',
     'Ra', 'Re', 'Amenhotep', 'Ament', 'Amentet', 'Amentit', 'Ammam', 'Ammit', 'Ammon', 'Ammut', 'Amn', 'Amon', 'Amsit',

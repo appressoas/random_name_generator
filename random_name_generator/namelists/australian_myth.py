@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+from __future__ import unicode_literals
 names = [
     'Adnoartina', 'Alchera', 'Almudj', 'Altjira', 'Arawotya', 'Bagadjimbiri', 'Baiame', 'Bamapana', 'Bellin', 'Biame',
     'Bildjiwuaroju', 'Binbeal', 'Birrahgnooloo', 'Bobbi', 'Bunbulama', 'Bunjil', 'Bunyip', 'Daramulum', 'Darana',

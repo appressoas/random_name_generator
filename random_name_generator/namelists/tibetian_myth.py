@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+from __future__ import unicode_literals
 names = [
     'Akshobhya', 'Amitayas', 'Amitayus', 'Amoghasiddhi', 'Appchungdu', 'Beg', 'Tse', 'Lcam', 'Sring', 'Begtse',
     'Bhaisajya', 'Guru', 'Bhaisajyaguru', 'Chenresig', 'Chenrezig', 'Dalai', 'Lama', 'Dharmapalas', 'Dhyani', 'Buddhas',

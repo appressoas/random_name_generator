@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+from __future__ import unicode_literals
 names = [
     'Aganju', 'Agarou', 'Agassou', 'Agayu', 'Agoue', 'Agwe', 'Aida', 'Wedo', 'Aizan', 'Ayida', 'Weddo', 'Azacca',
     'Babluaye', 'Badessy', 'Baka', 'Baron', 'Cimetiere', 'Cimetière', 'La', 'Croix', 'Samedi', 'Saturday', 'Ben',

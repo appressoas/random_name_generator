@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+from __future__ import unicode_literals
 names = [
     'Dirib Xecwi Qtuci', 'Goxoj', 'Fibog Qexav', 'Tafaf Mpibh Qykai', 'Vutyn Dypaq Yqopr', 'Quqyt Gtupe Xunyq', 'Vtpan',
     'Niapu Fnciq Dmela', 'Qigsm Oryma', 'Vcikd Mohiw Niibb', 'Kunnu', 'Puxeq Kgkyk Amijf', 'Edqug', 'Uxhal Eygal Tdbyz',

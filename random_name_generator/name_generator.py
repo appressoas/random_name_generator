@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+from __future__ import unicode_literals
 import random
 import importlib
 
@@ -56,7 +57,6 @@ NAMELIST_MODULES_KEYS = list(NAMELIST_MODULES)
 
 class RandomNameGenerator:
     VOWELS = 'aeiouy'
-    CRAZY_VOWELS = 'éúöøæå'
     CONSONANTS = 'bcdfghjklmnpqrstvwxz'
     ALPHABET = 'abcdefghijklmnopqrstuvwxyz'
 
@@ -66,7 +66,8 @@ class RandomNameGenerator:
     def get_next_if_consonant(self):
         if self.more_often_than_average():
             if random.randint(1, 13) == 1:
-                return random.choice(self.CRAZY_VOWELS)
+                # Sometimes we want double consonants
+                return random.choice(self.CONSONANTS)
             else:
                 return random.choice(self.VOWELS)
         return random.choice(self.ALPHABET)
@@ -98,8 +99,7 @@ class RandomNameGenerator:
 def get_random_name(namelist=None):
     if not namelist:
         lib_name = random.choice(NAMELIST_MODULES_KEYS)
-    lib = importlib.import_module('{}.{}.{}'.format(
-            'random_name_generator', 'namelists', lib_name))
+    lib = importlib.import_module('{}.{}.{}'.format('random_name_generator', 'namelists', lib_name))
     return random.choice(lib.names)
 
 def get_random_names(number_of_names=1):
@@ -130,7 +130,3 @@ def get_names(number_of_names=1):
         names.add(name)
         n = len(names)
     return list(names)
-
-
-if __name__ == '__main__':
-    print(get_names(1000))

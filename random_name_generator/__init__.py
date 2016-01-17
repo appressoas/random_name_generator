@@ -1,3 +1,4 @@
+from __future__ import unicode_literals
 import os, sys
 dirpath = os.path.join(os.path.dirname(__file__))
 sys.path.append(dirpath)

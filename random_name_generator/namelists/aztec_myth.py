@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+from __future__ import unicode_literals
 names = [
     "A'akuluujjusi", 'Aakuluujjusi', 'Abaangui', 'Achi', 'Achiyalabopa', 'Achomawi', 'Adekagagwaa', 'Adlivun', 'Aguara',
     'Ahayuta', 'Ahea', 'Ahe’A', 'Ahmeto', 'Okya', 'Aholi', 'Ahsonnutli', 'Airsekui', 'Aisoyimstan', 'Akba', 'Atatdia',

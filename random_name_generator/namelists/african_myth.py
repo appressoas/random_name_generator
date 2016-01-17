@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+from __future__ import unicode_literals
 names = [
     'Abassi', 'Abiku', 'Abuk', 'Achimi', 'Adriambahomanana', 'Adro', 'Adroa', 'Adroanzi', 'Age', 'Aha', 'Njoku', 'Aho',
     'Aigamuxa', 'Aje', 'Shaluga', 'Ajok', 'Akongo', 'Ala', 'Ale', 'Alla', 'Alouroua', 'Amma', 'Ananse', 'Anansi',

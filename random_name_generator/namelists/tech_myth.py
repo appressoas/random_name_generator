@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+from __future__ import unicode_literals
 names = [
     'Topnation', 'Thoughtlist', 'Jumpvine', 'Mybean', 'Jaxworks', 'Aginder', 'Topiczone', 'Linkverse', 'Pixondu',
     'Feedtype', 'Onix', 'Npath', 'Chatterblab', 'Oonoodle', 'Rhymbu', 'Fazio', 'BrowseXS', 'Yoba', 'Topblab',

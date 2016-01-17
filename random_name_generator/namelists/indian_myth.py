@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+from __future__ import unicode_literals
 names = [
     'Aditi', 'Adityas', 'Adivaraha', 'Agastya', 'Agastyar', 'Agathiar', 'Agni', 'Ambika', 'Amitabha', 'Ammavaru',
     'Amrita', 'Ananda', 'Angiras', 'Angirasa', 'Anjana', 'Annapurna', 'Ansa', 'Anumati', 'Anuradha', 'Apsaras',

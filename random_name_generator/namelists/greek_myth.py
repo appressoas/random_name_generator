@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+from __future__ import unicode_literals
 names = [
     'Achelois', 'Achelous', 'Acheron', 'Achilles', 'Acidalia', 'Adamanthea', 'Adephagia', 'Adonis', 'Adrastea',
     'Adrasteia', 'Aeacos', 'Aeacus', 'Aegaeon', 'Aegina', 'Aegle', 'Aello', 'Aellopos', 'Aeolos', 'Aeolus', 'Aer',

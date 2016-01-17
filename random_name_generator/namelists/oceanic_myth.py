@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+from __future__ import unicode_literals
 names = [
     'Abeguwo', 'Abere', 'Adaro', 'Adi', 'Mailagu', 'Afekan', 'Agunua', 'Ahoeitu', 'Tupuai', 'Aiaru', 'Aku', 'Muki',
     'Alalahe', 'Alilmenehune', 'Aluelop', 'Aluluei', 'Ao', 'Kahiwahiwa', 'Kanapanapa', 'Nue', 'Pakarea', 'Potano',

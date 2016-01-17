@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+from __future__ import unicode_literals
 names = [
     'Abandinus', 'Abarta', 'Abred', 'Achren', 'Aebh', 'Aed', 'Aengus', 'Aeron?', 'Afagddu', 'Agrona', 'Ai', 'Mac',
     'Ollamon', 'Aibell', 'Aichleach', 'Aife', 'Ailbe', 'Ailill', 'Anglonnach', 'Mata', 'Olom', 'Aille', 'Aillen',

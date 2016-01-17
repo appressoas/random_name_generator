@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+from __future__ import unicode_literals
 names = [
     'Abe Mango', 'Aimon Kondi', 'Aiomum', 'Aiomun', 'Aluberi', 'Amana', 'Anatina', 'Anatiwa', 'Ariconte',
     'Aroteh', 'Auchimalgen', 'Aunyaina', 'Bachue', 'Bochica', 'Boraro', 'Ceucy', 'Cherruves', 'Chia', 'Chibchachum',

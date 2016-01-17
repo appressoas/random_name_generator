@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+from __future__ import unicode_literals
 names = [
     'Auriwandalo', 'Bercht', 'Berchta', 'Donar', 'Earendel', 'Eastre', 'Eormen', 'Eostre', 'Erentil', 'Ermen',
     'Ermunaz', 'Frau', 'Faste', 'Perchta', 'Frea', 'Freke', 'Frey', 'Fri', 'Frick', 'Frig', 'Frige', 'Frija', 'Frijjō',

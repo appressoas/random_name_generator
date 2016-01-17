@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+from __future__ import unicode_literals
 names = [
     'Accla', 'Acsumama', 'Apaec', 'Ajomama', 'Apacatequil', 'Apacheta', 'Apocatequil', 'Apotequil', 'Apu', 'Illapu',
     'Punchau', 'Qun', 'Tiqsi', 'Wiraqutra', 'Ataguchu', 'Axomamma', 'Ayapec', 'Ayar', 'Acar', 'Cachi', 'Colo', 'Manco',

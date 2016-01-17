@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+from __future__ import unicode_literals
 names = [
     'Abeona', 'Abundantia', 'Acca', 'Larentia', 'Adeona', 'Aequitas', 'Aestas', 'Africus', 'Agnostos', 'Theos', 'Aius',
     'Locutius', 'Locutus', 'Albunea', 'Alemonia', 'Angerona', 'Angita', 'Ani', 'Perenna', 'Annona', 'Antinous',

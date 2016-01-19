@@ -120,6 +120,9 @@ def get_random_generated_name():
     return name_generator.get_next_name()
 
 def get_names(number_of_names=1):
+    """
+    Get a mix of random and generated names in a list.
+    """
     names = set()
     n = 0
     while n < number_of_names:
@@ -130,3 +133,50 @@ def get_names(number_of_names=1):
         names.add(name)
         n = len(names)
     return list(names)
+
+def pick_random_name_from_list(*namelists, exclude=None):
+    """
+    Pick a random name from one of the lists sent as arguments.
+    """
+    namelist = random.choice(namelists)
+    name = random.choice(namelist)
+    if exclude and name in exclude:
+        return pick_random_name_from_list(*namelists, exclude=exclude)
+    return name
+
+def pick_random_list_of_names_from_list(*namelists, number_of_names=1):
+    """
+    Pick a random number of names from lists received as arguments and return as list.
+    """
+    picked_names = set()
+    for wordindex in range(number_of_names):
+        picked_name = pick_random_name_from_list(*namelists, exclude=picked_names)
+        picked_names.add(picked_name)
+    return list(picked_names)
+
+
+if __name__ == '__main__':
+    print('\nExamples\n========')
+
+    print('\nSingle: get_random_generated_name()')
+    print(get_random_generated_name())
+
+    print('\nMultiple: get_random_generated_names(4)')
+    print(get_random_generated_names(4))
+
+    print('\nSingle: get_random_name()')
+    print(get_random_name())
+
+    print('\nMultiple: get_random_names(4)')
+    print(get_random_names(4))
+
+    print('\nMultiple: get_names(6)')
+    print(get_random_names(5))
+
+    print("\nSingle: pick_random_name_from_list(['Snoop', 'Notorious'], ['Dolly'])")
+    print(pick_random_name_from_list(['Snoop', 'Notorious'], ['Dolly']))
+
+    print("\nMultiple: pick_random_list_of_names_from_list(['Snoop', 'Notorious'], ['Dolly', 'Carl'], number_of_names=2)")
+    print(pick_random_list_of_names_from_list(['Snoop', 'Notorious'], ['Dolly', 'Carl'], number_of_names=2))
+
+    print('')

@@ -52,7 +52,7 @@ NAMELIST_MODULES = {
     'tech_myth': tech_myth,
     'tibetian_myth': tibetian_myth,
 }
-NAMELIST_MODULES_KEYS = list(NAMELIST_MODULES)
+NAMELIST_MODULES_KEYS = list(NAMELIST_MODULES.keys())
 
 
 class RandomNameGenerator:
@@ -96,17 +96,18 @@ class RandomNameGenerator:
         return ''.join(generated_name).strip()
 
 
-def get_random_name(namelist=None):
-    if not namelist:
-        lib_name = random.choice(NAMELIST_MODULES_KEYS)
-    lib = importlib.import_module('{}.{}.{}'.format('random_name_generator', 'namelists', lib_name))
+def get_random_name():
+    lib_name = random.choice(NAMELIST_MODULES_KEYS)
+    lib = NAMELIST_MODULES.get(lib_name)
     return random.choice(lib.names)
+
 
 def get_random_names(number_of_names=1):
     names = set()
     for i in range(number_of_names):
         names.add(get_random_name())
     return list(names)
+
 
 def get_random_generated_names(number_of_names=1):
     name_generator = RandomNameGenerator()
@@ -115,9 +116,11 @@ def get_random_generated_names(number_of_names=1):
         generated_names.add(name_generator.get_next_name())
     return list(generated_names)
 
+
 def get_random_generated_name():
     name_generator = RandomNameGenerator()
     return name_generator.get_next_name()
+
 
 def get_names(number_of_names=1):
     """
@@ -126,7 +129,7 @@ def get_names(number_of_names=1):
     names = set()
     n = 0
     while n < number_of_names:
-        if n%2 == 0:
+        if n % 2 == 0:
             name = get_random_name()
         else:
             name = get_random_generated_name()
@@ -134,23 +137,25 @@ def get_names(number_of_names=1):
         n = len(names)
     return list(names)
 
-def pick_random_name_from_list(*namelists, exclude=None):
+
+def pick_random_name_from_list(exclude, *namelists):
     """
     Pick a random name from one of the lists sent as arguments.
     """
     namelist = random.choice(namelists)
     name = random.choice(namelist)
     if exclude and name in exclude:
-        return pick_random_name_from_list(*namelists, exclude=exclude)
+        return pick_random_name_from_list(exclude, *namelists)
     return name
 
-def pick_random_list_of_names_from_list(*namelists, number_of_names=1):
+
+def pick_random_list_of_names_from_list(number_of_names, *namelists):
     """
     Pick a random number of names from lists received as arguments and return as list.
     """
     picked_names = set()
     for wordindex in range(number_of_names):
-        picked_name = pick_random_name_from_list(*namelists, exclude=picked_names)
+        picked_name = pick_random_name_from_list(picked_names, *namelists)
         picked_names.add(picked_name)
     return list(picked_names)
 
@@ -158,17 +163,17 @@ def pick_random_list_of_names_from_list(*namelists, number_of_names=1):
 if __name__ == '__main__':
     print('\nExamples\n========')
 
-    print('\nSingle: get_random_generated_name()')
-    print(get_random_generated_name())
-
-    print('\nMultiple: get_random_generated_names(4)')
-    print(get_random_generated_names(4))
-
     print('\nSingle: get_random_name()')
     print(get_random_name())
 
     print('\nMultiple: get_random_names(4)')
     print(get_random_names(4))
+
+    print('\nSingle: get_random_generated_name()')
+    print(get_random_generated_name())
+
+    print('\nMultiple: get_random_generated_names(4)')
+    print(get_random_generated_names(4))
 
     print('\nMultiple: get_names(6)')
     print(get_random_names(5))
@@ -176,7 +181,7 @@ if __name__ == '__main__':
     print("\nSingle: pick_random_name_from_list(['Snoop', 'Notorious'], ['Dolly'])")
     print(pick_random_name_from_list(['Snoop', 'Notorious'], ['Dolly']))
 
-    print("\nMultiple: pick_random_list_of_names_from_list(['Snoop', 'Notorious'], ['Dolly', 'Carl'], number_of_names=2)")
-    print(pick_random_list_of_names_from_list(['Snoop', 'Notorious'], ['Dolly', 'Carl'], number_of_names=2))
+    print("\nMultiple: pick_random_list_of_names_from_list(2, ['Snoop', 'Notorious'], ['Dolly', 'Carl'])")
+    print(pick_random_list_of_names_from_list(2, ['Snoop', 'Notorious'], ['Dolly', 'Carl']))
 
     print('')

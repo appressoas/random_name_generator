@@ -138,10 +138,11 @@ def get_names(number_of_names=1):
     return list(names)
 
 
-def pick_random_name_from_list(*namelists, exclude=None):
+def pick_random_name_from_list(*namelists, **kwargs):
     """
     Pick a random name from one of the lists sent as arguments.
     """
+    exclude = kwargs.get('exclude', [])
     namelist = random.choice(namelists)
     name = random.choice(namelist)
     if exclude and name in exclude:
@@ -149,12 +150,11 @@ def pick_random_name_from_list(*namelists, exclude=None):
     return name
 
 
-def pick_random_list_of_names_from_list(number_of_names, *namelists, exclude=None):
+def pick_random_list_of_names_from_list(number_of_names, *namelists, **kwargs):
     """
     Pick a random number of names from lists received as arguments and return as list.
     """
-    print('*'*11, namelists)
-    print('*'*11, exclude)
+    exclude = kwargs.get('exclude', [])
     picked_names = set()
     for wordindex in range(number_of_names):
         picked_name = pick_random_name_from_list(*namelists, exclude=list(picked_names)+exclude)

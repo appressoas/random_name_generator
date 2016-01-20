@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 import random
-import importlib
+# import importlib
 
 from namelists import african_myth
 from namelists import australian_myth
@@ -138,29 +138,34 @@ def get_names(number_of_names=1):
     return list(names)
 
 
-def pick_random_name_from_list(exclude, *namelists):
+def pick_random_name_from_list(*namelists, exclude=None):
     """
     Pick a random name from one of the lists sent as arguments.
     """
     namelist = random.choice(namelists)
     name = random.choice(namelist)
     if exclude and name in exclude:
-        return pick_random_name_from_list(exclude, *namelists)
+        return get_random_generated_name()
     return name
 
 
-def pick_random_list_of_names_from_list(number_of_names, *namelists):
+def pick_random_list_of_names_from_list(number_of_names, *namelists, exclude=None):
     """
     Pick a random number of names from lists received as arguments and return as list.
     """
+    print('*'*11, namelists)
+    print('*'*11, exclude)
     picked_names = set()
     for wordindex in range(number_of_names):
-        picked_name = pick_random_name_from_list(picked_names, *namelists)
+        picked_name = pick_random_name_from_list(*namelists, exclude=list(picked_names)+exclude)
         picked_names.add(picked_name)
     return list(picked_names)
 
 
 if __name__ == '__main__':
+
+    print(NAMELIST_MODULES_KEYS)
+
     print('\nExamples\n========')
 
     print('\nSingle: get_random_name()')
@@ -182,6 +187,6 @@ if __name__ == '__main__':
     print(pick_random_name_from_list(['Snoop', 'Notorious'], ['Dolly']))
 
     print("\nMultiple: pick_random_list_of_names_from_list(2, ['Snoop', 'Notorious'], ['Dolly', 'Carl'])")
-    print(pick_random_list_of_names_from_list(2, ['Snoop', 'Notorious'], ['Dolly', 'Carl']))
+    print(pick_random_list_of_names_from_list(26, ['Snoop', 'Notorious'], ['Dolly', 'Carl'], exclude=['Snoop']))
 
     print('')
